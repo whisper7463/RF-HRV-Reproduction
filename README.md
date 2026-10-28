@@ -22,12 +22,11 @@ RF-HRV-Reproduction：基于射频信号的心脏活动监测论文复现
 四、仓库文件说明
 文件或目录	说明
 RF_HRV.m	MATLAB 论文复现主程序
-Minimum_dataset/	运行程序所需的预处理最小数据集，本仓库暂不公开该数据集
-HRV_error_boxplots.png	四项 HRV 误差指标的箱线图
-HRV_error_summary.csv	四项误差指标的统计汇总
-RT_IBI_error_all.png	RT-IBI 误差箱线图
-RT_IBI_error_all.csv	RT-IBI 误差数据
-results/	实验结果文件目录（如有）
+results/	实验结果文件目录
+    HRV_error_boxplots.png	四项 HRV 误差指标的箱线图
+    HRV_error_summary.csv	四项误差指标的统计汇总
+    RT_IBI_error_all.png	RT-IBI 误差箱线图
+    RT_IBI_error_all.csv	RT-IBI 误差数据
 五、复现流程
 1. 在 MATLAB 或 MATLAB Online 中打开 RF_HRV.m。
 2. 将 Minimum_dataset 文件夹放在主程序能够访问的位置，并确认代码中的数据路径正确。
